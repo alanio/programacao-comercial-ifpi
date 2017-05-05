@@ -84,6 +84,9 @@ local.properties
 hs_err_pid*
 
 ### NetBeans ###
+*.xml
+*.ml
+*.form
 nbproject/private/
 build/
 nbbuild/
