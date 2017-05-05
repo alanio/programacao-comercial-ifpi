@@ -1,9 +1,10 @@
 
-# Created by https://www.gitignore.io/api/netbeans,java,code-java,eclipse
+# Created by https://www.gitignore.io/api/java,eclipse,netbeans,code-java
 
 ### Code-Java ###
 # Language Support for Java(TM) by Red Hat extension for Visual Studio Code - https://marketplace.visualstudio.com/items?itemName=redhat.java
-
+*.o
+*.exe
 .project
 .classpath
 factoryConfiguration.json
@@ -22,8 +23,6 @@ local.properties
 .loadpath
 .recommenders
 
-# Eclipse Core
-
 # External tool builders
 .externalToolBuilders/
 
@@ -35,8 +34,6 @@ local.properties
 
 # CDT-specific (C/C++ Development Tooling)
 .cproject
-
-# JDT-specific (Eclipse Java Development Tools)
 
 # Java annotation processor (APT)
 .factorypath
@@ -58,6 +55,16 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+### Eclipse Patch ###
+# Eclipse Core      
+
+# JDT-specific (Eclipse Java Development Tools)     
 
 ### Java ###
 # Compiled class file
@@ -84,9 +91,6 @@ local.properties
 hs_err_pid*
 
 ### NetBeans ###
-*.xml
-*.ml
-*.form
 nbproject/private/
 build/
 nbbuild/
@@ -94,4 +98,4 @@ dist/
 nbdist/
 .nb-gradle/
 
-# End of https://www.gitignore.io/api/netbeans,java,code-java,eclipse
+# End of https://www.gitignore.io/api/java,eclipse,netbeans,code-java
