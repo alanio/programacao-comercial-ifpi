@@ -1,17 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+struct aluno{
+    const char* nome;
+    float n1,n2,n3;
+};
+
+typedef struct aluno Aluno;
 
 int main(){
-	int tam, soma=0;
-	
-	scanf("%d", &tam);
-	
-	int numeros[tam];
-	
-	for(int i=0;i<tam;i++){
-		scanf("%d",&numeros[i]);
-		soma+=numeros[i];
-	}
-	
-	printf("\n%d\n", soma);
-	
+    Aluno a;
+    //scanf("%s",a.nome);
+    a.nome = "Alanio";
+    a.n1 = 9.0;
+    a.n2 = 9.1;
+    a.n3 = 8.9;
 }
